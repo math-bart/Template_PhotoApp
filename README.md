@@ -1,0 +1,1 @@
+Template wykorzystujący HTML, CSS, BOOTSTRAP oraz SASS
