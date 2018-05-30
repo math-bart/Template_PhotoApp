@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham Rounded";
+  box-sizing: border-box; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 900; }
+
+p {
+  font-size: 16px;
+  color: #c0c0c0;
+  font-family: "PT Serif", serif; }
+
+.btn {
+  width: 170px;
+  height: 50px;
+  background: #16a085;
+  border-style: none; }
+
+.btn a {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 40px;
+  color: #fff; }
+
+.btn a:hover {
+  text-decoration: none; }
+
+.main-picture-1 {
+  background-size: cover;
+  width: 100%;
+  height: 745px;
+  padding: 30px 15vw;
+  background-image: url("../images/livello-1.png"); }
+  .main-picture-1 * {
+    color: #fff; }
+  .main-picture-1 .nav {
+    width: 750px;
+    margin: 0 auto; }
+    .main-picture-1 .nav ul {
+      margin: 0;
+      padding: 0; }
+      .main-picture-1 .nav ul li {
+        width: 150px;
+        display: block;
+        float: left;
+        padding: 0;
+        height: 70px; }
+        .main-picture-1 .nav ul li:not(:nth-child(3)) {
+          list-style-type: none;
+          font-size: 16px;
+          line-height: 90px;
+          font-weight: 400; }
+        .main-picture-1 .nav ul li:hover {
+          background-color: #242424; }
+          .main-picture-1 .nav ul li:hover a {
+            color: #fed136; }
+        .main-picture-1 .nav ul li a {
+          text-decoration: none;
+          text-align: center;
+          text-transform: uppercase; }
+  .main-picture-1 .hero {
+    width: 100%;
+    height: 500px;
+    margin: 40px auto;
+    padding-top: 170px; }
+    .main-picture-1 .hero * {
+      margin: 15px auto; }
+    .main-picture-1 .hero h1 {
+      letter-spacing: 5.4px;
+      font-family: "Gotham Rounded";
+      text-transform: uppercase;
+      font-weight: 700; }
+    .main-picture-1 .hero p {
+      font-family: "Gotham Rounded";
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 2.4px; }
+  .main-picture-1 .social .fa {
+    font-size: 20px;
+    padding: 10px; }
+
+.second {
+  min-height: 500px;
+  background-color: #f5f6f7; }
+  .second .row {
+    overflow: hidden; }
+    .second .row .hand {
+      background-image: url("../images/2-layers.png");
+      height: 500px;
+      background-position: -519px -735px;
+      background-repeat: no-repeat; }
+    .second .row .title {
+      color: #16a085;
+      font-family: "Gotham Rounded";
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2.7px;
+      margin: 100px 0 40px; }
+    .second .row .description {
+      width: 500px;
+      height: 160px;
+      color: #373737;
+      font-family: "Gotham Rounded - Book";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 1.9px; }
+      .second .row .description .description span {
+        font-weight: 700; }
+    .second .row .btn {
+      width: 192px; }
+
+.third {
+  min-height: 550px; }
+  .third .telephone {
+    background-image: url("../images/shape1.png");
+    height: 550px;
+    background-position: 30px 120px;
+    background-repeat: no-repeat; }
+  .third .col {
+    overflow: hidden;
+    height: 550px; }
+    .third .col .carousel-caption {
+      width: 20px;
+      height: 20px;
+      top: 450px; }
+    .third .col .carousel-control {
+      width: 20px;
+      height: 20px;
+      top: 450px; }
+      .third .col .carousel-control .glyphicon-chevron-left, .third .col .carousel-control .glyphicon-chevron-right {
+        background-color: #fff;
+        line-height: 50px;
+        text-shadow: none;
+        color: #000; }
+    .third .col .right.carousel-control {
+      left: 55px;
+      right: inherit; }
+    .third .col .left.carousel-control {
+      left: 5px;
+      right: inherit; }
+    .third .col .carousel-indicators-numbers li {
+      position: absolute;
+      top: 80px;
+      right: 430px;
+      text-indent: 0;
+      margin: 0 70px;
+      width: 50px;
+      height: 30px;
+      border: none;
+      line-height: 30px;
+      color: #000;
+      transition: all 0.25s ease;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 4px; }
+    .third .col .title {
+      color: #16a085;
+      font-family: "Gotham Rounded";
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2.7px;
+      margin: 100px 0 40px; }
+    .third .col .description {
+      width: 500px;
+      height: 160px;
+      color: #373737;
+      font-family: "Gotham Rounded - Book";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 1.9px; }
+      .third .col .description .description span {
+        font-weight: 700; }
+    .third .col .btn {
+      width: 192px; }
+
+.fourth {
+  min-height: 480px;
+  padding: 120px 0;
+  background: #f5f6f7; }
+  .fourth .community img {
+    padding: 40px 0 10px; }
+  .fourth .community p {
+    font-size: 10px;
+    padding: 0 4vw;
+    letter-spacing: 1.5px; }
+  .fourth .community h4 {
+    padding: 10px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2.4; }
+  .fourth .carousel-caption {
+    width: 20px;
+    height: 20px;
+    top: -50px; }
+  .fourth .carousel-control {
+    width: 20px;
+    height: 20px;
+    top: -50px; }
+    .fourth .carousel-control .glyphicon-chevron-left, .fourth .carousel-control .glyphicon-chevron-right {
+      background-color: #f5f6f7;
+      line-height: 50px;
+      text-shadow: none;
+      color: #000; }
+  .fourth .right.carousel-control {
+    right: 100px;
+    left: inherit; }
+  .fourth .left.carousel-control {
+    right: 150px;
+    left: inherit; }
+  .fourth .carousel-indicators-numbers li {
+    display: none; }
+  .fourth .item img {
+    float: left;
+    margin-right: 25px; }
+
+.subscribe .main-picture-2 {
+  background-size: cover;
+  width: 100%;
+  height: 745px;
+  padding: 30px 15vw;
+  background-image: url("../images/livello-3.png"); }
+  .subscribe .main-picture-2 h2 {
+    font-family: "Gotham Rounded";
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 3.6px;
+    padding-top: 270px; }
+  .subscribe .main-picture-2 .sub-field {
+    width: 350px;
+    margin: 30px auto; }
+    .subscribe .main-picture-2 .sub-field div {
+      float: left;
+      display: inline-block;
+      height: 60px; }
+    .subscribe .main-picture-2 .sub-field form div {
+      width: 280px; }
+      .subscribe .main-picture-2 .sub-field form div input {
+        padding: 29px 20px;
+        text-transform: uppercase;
+        font-size: 16px; }
+    .subscribe .main-picture-2 .sub-field .button {
+      background: #16a085;
+      width: 60px;
+      height: 60px;
+      font-size: 25px;
+      line-height: 60px;
+      border-radius: 0 3px 3px 0; }
+
+.download {
+  background: #f5f6f7; }
+  .download .container {
+    padding: 80px 100px 70px; }
+    .download .container h3 {
+      color: #373737;
+      font-family: "Gotham Rounded";
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+    .download .container p {
+      color: #373737;
+      font-family: "Gotham Rounded";
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 22px;
+      text-transform: uppercase;
+      letter-spacing: 1.8px; }
+    .download .container .row {
+      margin: 30px auto;
+      width: 640px;
+      color: #fff; }
+      .download .container .row .col {
+        float: left;
+        width: 300px;
+        display: inline-block;
+        margin: 0 10px; }
+        .download .container .row .col .store {
+          width: 240px;
+          background: #1abc9c;
+          float: left;
+          display: inline-block;
+          text-transform: uppercase;
+          font-size: 16px;
+          font-weight: 700;
+          text-align: left;
+          padding: 17px 25px;
+          height: 56px; }
+        .download .container .row .col .button {
+          font-size: 25px;
+          background: #16a085;
+          width: 52px;
+          height: 56px;
+          float: left;
+          display: inline-block;
+          border-radius: 0 3px 3px 0; }
+          .download .container .row .col .button .fa {
+            color: #fff;
+            line-height: 56px; }
+
+.footer {
+  padding: 40px 0 20px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px; }
+  .footer span {
+    color: #1abc9c; }
+
+/*# sourceMappingURL=style.css.map */

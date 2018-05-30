@@ -1,0 +1,637 @@
+$color-background: #f5f6f7;
+$color-light: #1abc9c;
+$color-main: #16a085;
+$color-gray: #373737; 
+$color-twitter: #00aced;
+$color-flickr: #3b5998;
+$color-dribbble: #cb2028;
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Gotham Rounded";
+	box-sizing: border-box;
+	color: $color-gray;
+	outline: none;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 900;
+}
+
+p {
+	font-size: 16px;
+}
+
+.btn {
+	width: 170px;
+	height: 50px;
+	background: $color-main;
+	border-style: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 40px;
+	color: #fff;
+	text-decoration: none;
+	&:hover {
+		background: $color-light;
+		font-size: 14px;
+		transition: 0.3s;
+		color: #fff;
+	}
+}
+
+.carousel-indicators-numbers li {
+	position: absolute;
+	top: 80px;
+	left: -8vw;
+	text-indent: 0;
+	margin: 0 1270px;
+	width: 50px;
+	height: 30px;
+	border: none;
+	line-height: 30px;
+	color: #000;
+	transition: all 0.25s ease;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 4px;
+}
+
+
+.main-picture-1 {
+	background-size: cover;
+	width: 100%;
+	height: 745px;	
+	padding: 30px 0;
+	background-image: url('../images/livello-1.png');
+	* {
+		color: #fff;
+	}
+	.nav {
+		width: 750px;
+		margin: 0 auto;
+		ul {
+			margin: 0;
+			padding: 0;
+			li {
+				width: 150px;
+				display: block;
+				float: left;
+				padding: 0;
+				height: 70px;
+				&:not(:nth-child(3)) {
+					list-style-type: none;
+					font-size: 16px;
+					line-height: 90px;
+					font-weight: 400;	
+				}
+				&:hover {
+					cursor: pointer;
+					&:not(:nth-child(3)) {
+						border: 1px solid $color-main;
+						border-radius: 5px;
+						line-height: 70px;
+						a {
+							color: $color-main;
+							font-size: 20px;
+							transition: 0.3s;
+						}
+					}
+				}
+				a {			
+					text-decoration: none;
+					text-align: center;
+					text-transform: uppercase;
+					&:visited {
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+	.hero {
+		width: 70%;
+		height: 500px;
+		margin: 40px auto;
+		padding-top: 170px;
+		* {
+			margin: 15px auto;
+		}
+		h1 {
+			letter-spacing: 5.4px;
+			font-family: "Gotham Rounded";
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+		p {
+			font-family: "Gotham Rounded";
+			font-size: 16px;
+			font-weight: 500;
+			letter-spacing: 2.4px;
+		}
+	}
+	.social {
+		user-select: none;
+		.fa {
+			font-size: 20px;
+			padding: 10px;
+			line-height: 30px;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			&:hover {
+				font-size: 26px;
+				background-color: $color-main;
+				transition: 0.3s;
+			}
+		}
+	}
+}
+
+.second {
+	min-height: 500px;
+	background-color: $color-background;
+	.row {
+		overflow: hidden;
+		.hand {
+			background-image: url('../images/2-layers.png');
+			height: 500px;	
+			background-position: -519px -735px;
+			background-repeat: no-repeat;
+		}
+		.title {
+			color: $color-main;
+			font-family: "Gotham Rounded";
+			font-size: 18px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 2.7px;
+			margin: 100px 0 40px;
+		}
+		.description {
+			width:500px;
+			height: 160px;
+			color: $color-gray;
+			font-family: "Gotham Rounded - Book";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 24px;
+			letter-spacing: 1.9px;
+			span {
+				font-weight: 700;
+			}
+		}
+		.btn {
+			width: 192px;
+		}
+	}
+}
+
+.third {
+	min-height: 550px;
+	.telephone {
+		background-image: url('../images/shape1.png');
+		height: 550px;	
+		background-position: 30px 120px;
+		background-repeat: no-repeat;
+	}
+	.col {
+		overflow: hidden;
+		height: 550px;
+		.carousel-caption {
+			width: 20px;
+			height: 20px;
+			top: 450px;
+		}
+		.carousel-control {
+			width: 20px;
+			height: 20px;
+			top: 450px;
+			.glyphicon-chevron-left, .glyphicon-chevron-right {
+				background-color: #fff;
+				line-height: 50px;
+				text-shadow: none;
+				color: #000;
+			}
+		}
+		.right.carousel-control {
+			left: 55px;
+			right: inherit;
+		}
+		.left.carousel-control {
+			left: 5px;
+			right: inherit;
+		}
+		
+		.title {
+			color: $color-main;
+			font-family: "Gotham Rounded";
+			font-size: 18px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 2.7px;
+			margin: 100px 0 40px;
+		}
+		.description {
+			width:500px;
+			height: 160px;
+			color: $color-gray;
+			font-family: "Gotham Rounded - Book";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 24px;
+			letter-spacing: 1.9px;
+			span {
+				font-weight: 700;
+			}
+		}
+		.btn {
+			width: 192px;
+		}
+	}
+}
+
+.fourth {
+	min-height: 480px;
+	padding: 120px 0;
+	background: $color-background;
+	.community {
+		img {
+			padding: 40px 0 10px;
+		}
+		p {
+			font-size: 10px;
+			padding: 0 4vw;
+			letter-spacing: 1.5px;
+		}
+		h4 {
+			padding: 10px 0;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 700;
+			letter-spacing: 2.4;
+		}
+	}
+	.carousel-caption {
+		width: 20px;
+		height: 20px;
+		top: -50px;
+	}
+	.carousel-control {
+		width: 20px;
+		height: 20px;
+		top: -50px;
+		.glyphicon-chevron-left, .glyphicon-chevron-right {
+			background-color: $color-background;
+			line-height: 50px;
+			text-shadow: none;
+			color: #000;
+		}
+	}
+	.right.carousel-control {
+		right: 100px;
+		left: inherit;
+	}
+	.left.carousel-control {
+		right: 150px;
+		left: inherit;
+	}
+	.carousel-indicators li {
+		display: none;
+	}
+	.item {
+		img {
+		float: left;
+		margin-right: 25px;
+		}
+	}
+}
+
+.subscribe {
+	.main-picture-2 {
+		background-size: cover;
+		width: 100%;
+		height: 745px;	
+		padding: 30px 15vw;
+		background-image: url('../images/livello-3.png');
+		h2 {
+			font-family: "Gotham Rounded";
+			font-weight: 700;
+			text-transform: uppercase;
+			font-size: 24px;
+			letter-spacing: 3.6px;
+			padding-top: 270px;
+			color: #fff;
+		}
+		.sub-field {
+			width: 350px;
+			margin: 30px auto;
+			div {
+				float: left;
+				display: inline-block;
+				height: 60px;
+			}
+			form {
+				div {
+					width: 280px;
+					input {
+						padding: 29px 20px;
+						text-transform: uppercase;
+						font-size: 16px;
+						letter-spacing: 2.4px;
+					}
+				}
+			}
+			.button {
+				background: $color-main;
+				width: 60px;
+				height: 60px;
+				font-size: 25px;
+				line-height: 60px;
+				border-radius: 0 3px 3px 0;
+				* {
+					color: #fff;
+				}
+				&:hover {
+					font-size: 40px;
+					transition: 0.3s;
+				}
+			}
+		}
+	}
+}
+
+.download {
+	background: $color-background;
+		padding: 80px 0 70px;
+		h3 {
+			color: $color-gray;
+			font-family: "Gotham Rounded";
+			font-size: 20px;
+			font-weight: 700;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+		}
+		p {
+			color: $color-gray;
+			font-family: "Gotham Rounded";
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 22px;
+			text-transform: uppercase;
+			letter-spacing: 1.8px;
+			width: 70%;
+			margin: 0 auto;
+		}
+		.row {
+			margin: 30px auto;
+			width: 650px;
+			color: #fff;
+			.col {
+				float: left;
+				width: 300px;
+				display: inline-block;
+				margin: 0 10px;
+				.store {
+					width: 240px;
+					background: $color-light;
+					float: left;
+					display: inline-block;
+					text-transform: uppercase;
+					font-size: 16px;
+					font-weight: 700;
+					text-align: left;
+					padding: 17px 25px;
+					height: 56px;
+					color: #fff;
+				}
+				.button {
+					font-size: 25px;
+					background: $color-main;
+					width: 52px;
+					height: 56px;
+					float: left;
+					display: inline-block;
+					border-radius: 0 3px 3px 0;
+					* {
+						color: #fff;
+						line-height: 56px;
+					}
+					&:hover * {
+						font-size: 40px;
+						transition: 0.3s;
+					}
+				}
+			}
+		}
+}
+
+.footer {
+	padding: 40px 0 20px 20px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	.row {
+		max-width: 100%;
+		span, a {
+			color: $color-main;
+		}
+	}
+}
+
+.modal-header {
+	background: $color-main;
+	* {
+		color: #fff;
+		opacity: 0.9;
+	}
+}
+
+@media (max-width: 1200px) {
+	.fourth {
+		.container {
+			width: 100%;
+		}
+		.item {
+			img {
+				width: 29vw;
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.carousel-indicators-numbers li {
+		left: -15vw;
+		top: 110px;
+	}
+	.third {
+		.telephone {
+			background-position: 230px 120px;
+		}
+		.col {
+			.title {
+				margin: 50px 0px;
+			}
+		}
+	}
+	.fourth {
+		.community {
+			img {
+				padding: 0 0 10px;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+
+	.carousel-indicators-numbers li {
+		left: -18vw;
+	}
+	.main-picture {
+		padding: 30px 0;
+		.nav {
+			width: 95vw;
+			padding: 0;
+			ul {
+				margin: 0 auto;
+				li {
+					text-align: center;
+					float: clear;
+					padding: 0 10px;
+					width: 60%;
+					margin: 5px 20%;
+					&:not(:nth-child(3)) {
+						height: 30px;
+						border: 2px solid $color-main;
+						background-color: rgba(0,0,0,0.5);
+						list-style-type: none;
+						font-size: 16px;
+						line-height: 30px;
+						font-weight: 400;	
+					}
+					&:hover {
+						&:not(:nth-child(3)) {
+							background-color: rgba(0,0,0,0.9);
+							line-height: 30px;
+							a {
+								font-size: 16px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.hero {
+			padding-top: 40px;
+			height: 320px;
+		}
+	}
+	.third {
+		.telephone {
+			background-position: 30px 120px;
+		}
+	}
+	.fourth {
+		.carousel-control {
+			top: 180px;
+		}
+		.item {
+			img {
+				width: 35vw;
+			}
+		}
+	}
+	.download {
+		.row {
+			width: 300px;
+			.col {
+				float: clear;
+				margin: 10px 10px;
+				display: block;
+			}
+		}
+	}
+	.subscribe {
+		.main-picture-2 {
+			padding: 30px 0;
+			.sub-field {
+				width: 90vw;
+				form {
+					div {
+						width: 70vw;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.second, {
+		.row {
+			.hand {	
+				background-position: -719px -735px;
+			}
+			.description {
+				width:90%;
+				height: 170px;
+				p {
+					letter-spacing: 1.5px;
+					font-size: 10px;
+				}
+			}
+		}
+	}
+	.third {
+		.row {
+			.description {
+				width:90%;
+				height: 170px;
+				p {
+					letter-spacing: 1.5px;
+					font-size: 10px;
+				}
+			}
+		}
+	}
+	.fourth {
+		.carousel-control {
+			top: 25vw;
+		}
+	}
+}
+
+@media (max-width: 430px) {
+	.footer {
+		.row {
+			.col {
+				padding: 0;
+			}
+		}
+	}
+	.main-picture-1 {
+		.nav {
+			width: 90vw;
+		}
+		.hero {
+			h1 {
+				font-size: 30px;
+			}
+		}
+	}
+	.download {
+		.row {
+			.col {
+				width: 260px;
+				.store {
+					width: 200px;
+				}
+			}
+		}
+	}
+}
